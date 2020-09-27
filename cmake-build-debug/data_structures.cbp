@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="data_structures"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/marten/programming/data-structures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/marten/programming/data-structures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/marten/programming/data-structures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_structures">
+				<Option output="/home/marten/programming/data-structures/cmake-build-debug/data_structures" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marten/programming/data-structures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/marten/programming/data-structures/contiguous"/>
+					<Add directory="/home/marten/programming/data-structures/linked"/>
+					<Add directory="/home/marten/programming/data-structures/abstract-data-types"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_structures"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_structures/fast">
+				<Option output="/home/marten/programming/data-structures/cmake-build-debug/data_structures" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marten/programming/data-structures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/marten/programming/data-structures/contiguous"/>
+					<Add directory="/home/marten/programming/data-structures/linked"/>
+					<Add directory="/home/marten/programming/data-structures/abstract-data-types"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_structures/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/marten/programming/data-structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/marten/programming/data-structures/abstract-data-types/BTree.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="/home/marten/programming/data-structures/abstract-data-types/Deque.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="/home/marten/programming/data-structures/abstract-data-types/Dictionairy.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="/home/marten/programming/data-structures/abstract-data-types/Queue.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="/home/marten/programming/data-structures/abstract-data-types/Stack.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="/home/marten/programming/data-structures/array_boilerplate.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="/home/marten/programming/data-structures/bench.cpp">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="/home/marten/programming/data-structures/boilerplate.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="/home/marten/programming/data-structures/boilerplatetester.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="/home/marten/programming/data-structures/contiguous/Array.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="/home/marten/programming/data-structures/linked/List.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="/home/marten/programming/data-structures/main.cpp">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="/home/marten/programming/data-structures/simpleboilerplate.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="/home/marten/programming/data-structures/test.cpp">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="/home/marten/programming/data-structures/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
